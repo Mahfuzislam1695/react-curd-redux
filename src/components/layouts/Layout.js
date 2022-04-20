@@ -5,16 +5,14 @@ import Header from './Header';
 
 const Layout = (props) => {
     return (
-        <>
-          <h2>header</h2>
-          <Header/>
-          <Container>
-            {props.children}
+        <div className="App">
+            <Header />
+            <Container>
+                {props.children}
             </Container>
-          <Footer/>  
-
-        </>
+            <Footer />
+        </div>
     );
-};
+}
 
 export default Layout;

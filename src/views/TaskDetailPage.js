@@ -1,12 +1,12 @@
 import React from 'react';
 import Layout from '../components/layouts/Layout';
 
-const TaskDetail = () => {
+function TaskDetailPage() {
     return (
         <Layout>
-            <h2>Task Details</h2>
+            <h2>Task Detail Page</h2>
         </Layout>
     );
-};
+}
 
-export default TaskDetail;
+export default TaskDetailPage;
